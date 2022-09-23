@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ManualComponent from './ManualComponent';
+import { InterpolarComponent } from './InterpolarComponent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
         {/* Manual component */}
         <ManualComponent />
+        <InterpolarComponent />
       </header>
     </div>
   );
